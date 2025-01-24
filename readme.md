@@ -1,6 +1,6 @@
 Rust:
 - Systems programming language
-- statically typed language- need to define types
+- statically typed language
 - has nor garbage collection, nor memory allocation. instead uses ownership and borrowing
 
 Basic commands:
