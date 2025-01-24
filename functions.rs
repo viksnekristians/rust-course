@@ -12,8 +12,17 @@ fn main() {
     };
 
     println!("Result is {}", _x);
+    println!("Result is {}", add(4,6));
 
-    println!("Result is {}", add(5,5));
+    // Expression - anything that returns a value
+    // Staatement - anything that does not return a value - almost always ends with ;
+
+    let weight: f64 = 80.5;
+    let height: f64 = 189.5;
+
+    let bmi: f64 = calculate_bmi(weight, height);
+
+    println!("Your BMI: {:.2}", bmi);
 }
 
 fn test() {
@@ -22,4 +31,8 @@ fn test() {
 
 fn add(a: i32, b: i32) -> i32 {
     a + b // no return or semicolon- evaluates automaatically
+}
+
+fn calculate_bmi(weight_kg: f64, height_m: f64) -> f64 {
+    weight_kg * height_m
 }
