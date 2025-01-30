@@ -5,5 +5,6 @@ Rust:
 
 Basic commands:
 - cargo- package manager
+- cargo new my_project - create project
 - cd projectFolder -> cargo run- compile and run program
 - rustc <filename> - compiles -> ./filename - launch program
